@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="Styles/Registro_de_RH.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link href="css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <title>Registrar usuario</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="aspirantes.html"> ← Volver atras</a>
+        </nav>
+
+        <a href="index.html"><img src="img/logo.png" class="logo" alt=""></a>
+    </header>
+
+<section class="container text-dark">
+    <div class="row my-5">
+        
+        <!--CONTENIDO-->
+        <form class="login_form text-dark" name="form" action="" method="POST" id="formulario" >
+            <h2>Formulario de postulacion</h2>
+            <label class="text-dark">Nombre: </label>
+            <input class="text-dark" autocomplete="off" type="text" placeholder="Introduce tu normbre" maxlength="20" id="txtnombre" name="nombre" required>
+            
+            <label class="text-dark">Apellido: </label>
+            <input class="text-dark" autocomplete="off" type="text" placeholder="Introduce tu apellido" maxlength="40" id="txtapellido" name="apellido" required >
+
+            <label class="text-dark">Tipo de documento: </label>
+            <input class="text-dark" autocomplete="off" type="text" placeholder="Introduce tu edad" id="txtTipoDocumento" name="tipoDocumento" required>
+
+            <label class="text-dark">Numero de documento: </label>
+            <input class="text-dark"autocomplete="off" type="number" placeholder="Introduce tu edad" id="txtdocumento" name="documento" required>
+            
+            <label class="text-dark">Telefono: </label>
+            <input class="text-dark" autocomplete="off" type="tel" placeholder="Introduce tu Telefono" id="txttelefono" name="Telefono" required>
+
+            <label class="text-dark">Correo Electronico: </label>
+            <input class="text-dark" autocomplete="off" type="email" class="inputC" id="txtemail" placeholder="Introduce tu correo electronico" maxlength="100" name="email" required>
+
+            <p class="form_link">Volver a la pagina principal <a href="index.html">Has clic aqui</a></p>
+            <a onclick="" href="#" class="btn btn-primary btn-user btn-lg">Limpiar campos</a>
+            <a onclick="registrarAspirantes()" href="#" class="btn btn-primary btn-user btn-lg">Enviar</a>
+        </form>
+    </div>
+</section>
+
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="js/registrarAspi.js" ></script>
+
+</body>
+<html>
