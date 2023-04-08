@@ -84,7 +84,23 @@
     			<groupId>org.apache.maven</groupId>
     			<artifactId>maven-core</artifactId>
     			<version>3.9.1</version>
-		</dependency>		
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-jdbc -->
+		<dependency>
+    			<groupId>org.springframework</groupId>
+    			<artifactId>spring-jdbc</artifactId>
+    			<version>6.0.7</version>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/com.microsoft.sqlserver/mssql-jdbc -->
+		<dependency>
+    			<groupId>com.microsoft.sqlserver</groupId>
+    			<artifactId>mssql-jdbc</artifactId>
+    			<version>12.2.0.jre8</version>
+		</dependency>
+
+
 
 	</dependencies>
 
